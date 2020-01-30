@@ -1,0 +1,38 @@
+header {height:91px;}
+/* -----------------------------------------NavBar */
+
+.navbar-nav {
+    font-family: "Exo", sans-serif;
+    font-size: 1.2em;
+    color: black;
+}
+
+.navbar-nav li {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.navbar-brand {
+    height: 75px;
+    padding-left: 1em;
+}
+
+.navbar-brand img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.nav-item a {
+    font-size: 1.2em;
+    font-family: 'Exo', sans-serif;
+    color: black !important;
+}
+
+.navbar ul li a:hover {
+    color: #ffa500 !important;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
